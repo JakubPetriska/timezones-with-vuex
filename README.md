@@ -2,7 +2,9 @@
 
 Example web application showing current times in different time zones.
 
-Built using Vue.js.
+Built using Vue.js with Vuex.
+
+Based on [this repo](https://github.com/JakubPetriska/timezones).
 
 ## Build Setup
 
