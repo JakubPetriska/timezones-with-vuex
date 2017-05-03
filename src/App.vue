@@ -2,7 +2,7 @@
   <div id="app">
     <md-toolbar>
       <h1 class="md-title"
-          style="flex: 1">Timezones</h1>
+          style="flex: 1">Timezones with Vuex</h1>
   
       <md-button class="md-icon-button"
                  @click.native="openDialog('clear-all-confirmation-dialog')"

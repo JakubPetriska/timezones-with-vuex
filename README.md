@@ -1,4 +1,4 @@
-# Timezones
+# Timezones with Vuex
 
 Example web application showing current times in different time zones.
 
