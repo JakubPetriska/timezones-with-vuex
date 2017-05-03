@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 import timezonesjson from 'timezones.json'
+import store from './store'
 import App from './App'
 
 Vue.config.productionTip = false
@@ -19,6 +20,7 @@ Vue.material.registerTheme('default', {
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   render: h => h(App, {
     props: { timezones: timezonesjson }
   })

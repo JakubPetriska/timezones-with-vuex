@@ -17,7 +17,8 @@
     "moment-timezone": "^0.5.13",
     "timezones.json": "^1.2.0",
     "vue": "^2.2.2",
-    "vue-material": "^0.7.1"
+    "vue-material": "^0.7.1",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
